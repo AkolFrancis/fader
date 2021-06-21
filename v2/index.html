@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fader Label From Scratch</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    body{
+      margin: 0;
+      padding:0;
+      border: 0;
+    }
+    .menuContainer{
+      /*border: 5px solid red;*/
+      height: 120px;
+      position: fixed;
+      top: 30px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+    }
+    .logoContainer{
+      /*border: 5px solid red;*/
+      width: 220px;
+      height: 100px;
+      background: url('logo.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left: 30px;
+    }
+    .navItemContainer{
+      /*border: 5px solid blue;*/
+      width: 600px;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      margin-left: 20px;
+
+    }
+    .socialIconContainer{
+      /*border: 5px solid green;*/
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px;
+    }
+    .navItem{
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+    }
+
+    .faicon{
+      font-size: 30px;
+    }
+    .logoAndNavContainer{
+      /*border: 5px solid blue;*/
+      display: flex;
+    }
+    .page{
+      width: 100vw;
+      height: 100vh;
+      background: url('bg.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .header{
+      font-size: 94px;
+      font-weight: 100;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .center{
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="page">
+    <div>
+      <p class="header">CLAIRO</p>
+      <p class="center">
+        <i>IMMUNITY</i>
+      </p>
+      <p class="center">LISTEN</p>
+    </div>
+  </div>
+
+  <div class="menuContainer"> 
+    <div class="logoAndNavContainer">
+      
+      <div class="logoContainer"></div>
+      
+      <div class="navItemContainer">
+        <a class="navItem" href="">ARTISTS</a>
+        <a class="navItem" href="">SHOP</a>
+        <a class="navItem" href="">RELEASES</a>
+        <a class="navItem" href="">TOUR</a>
+        <a class="navItem" href="">THE FADER</a>
+        <a class="navItem" href="">ABOUT</a>
+        <a class="navItem" href="">SUBSCRIBE</a>    
+      </div>  
+      
+    </div>
+    
+    <div class="socialIconContainer">
+      <i class="faicon fa fa-twitter" ></i>
+      <i class="faicon fa fa-instagram"></i>   
+      <i class="faicon fa fa-facebook" ></i>
+    </div>
+    
+  </div>
+</body>
+</html>
